@@ -1,0 +1,31 @@
+{
+  "name": "stitch-dom",
+  "version": "1.0.0",
+  "description": "A small JS Library for handling DOM Updates",
+  "main": "dist/js/stitch.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --config webpack.config.js",
+    "build": "npm run webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathkrill/stitch.git"
+  },
+  "keywords": [
+    "JS",
+    "JavaScript",
+    "DOM",
+    "data"
+  ],
+  "author": "nathan.akrill@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nathkrill/stitch/issues"
+  },
+  "homepage": "https://github.com/nathkrill/stitch#readme",
+  "devDependencies": {
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0"
+  }
+}
